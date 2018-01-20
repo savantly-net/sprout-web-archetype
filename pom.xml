@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.savantly.sprout</groupId>
+  <artifactId>sprout-web-archetype</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>sprout-web-archetype</name>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>3.0.1</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>3.0.1</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+
+  <url>https://github.com/savantly-net/sprout-web-archetype/</url>
+
+  <developers>
+    <developer>
+      <name>Jeremy Branham</name>
+      <email>jeremy@savantly.net</email>
+      <url>https://www.linkedin.com/in/jeremybranham</url>
+      <organization>Savantly.net</organization>
+      <organizationUrl>http://Savantly.net</organizationUrl>
+      <timezone>-6</timezone>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>https://github.com/savantly-net/sprout-web-archetype.git</connection>
+    <url>https://github.com/savantly-net/sprout-web-archetype</url>
+  </scm>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <description>Archetype for a Sprout web application</description>
+  <inceptionYear>2018</inceptionYear>
+</project>
